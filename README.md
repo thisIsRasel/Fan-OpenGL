@@ -18,3 +18,7 @@ For setting up freeglut in code block follow these steps:
 5. Add \MinGW\lib\libopengl32.a and \MinGW\lib\freeglut.lib (i.e., C:\Program Files\CodeBlocks\MinGW\lib\freeglut.lib) from Settings > Compiler & Debugger > Linker Settings.
 
 These are default locations, your paths may be different. But basically, you place the .lib and .h files in the location of your compiler (in this case mingw). The .dll file goes in the windows system directory.
+
+
+
+Note: Both 32-bit and 64-bit freeglut files are provided with this repository and you may need to link more libraries from Linker settings. 
